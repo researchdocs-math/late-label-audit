@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite this software when reusing these audit experiments."
+title: "Late Labels, Hidden Errors: Reproducible Audit Experiments"
+type: software
+version: 1.0.0
+date-released: 2026-10-04
+license: MIT
+authors:
+  - family-names: Yavas
+    given-names: Cemil Emre
+    orcid: "https://orcid.org/0009-0006-9552-1731"
+    affiliation: Georgia Southern University
+    email: cemil@fairesresearch.org
+abstract: "Exact finite-population monitoring of frozen prediction cohorts with outcome-dependent routine and audit verification delays."
+keywords:
+  - delayed feedback
+  - finite population
+  - model monitoring
+  - audit sampling
+  - reproducibility

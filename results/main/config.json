@@ -1,0 +1,55 @@
+{
+  "seeds": 200,
+  "workers": 10,
+  "streams": [
+    "gas_lr",
+    "gas_rf",
+    "hydraulic_lr",
+    "hydraulic_rf",
+    "gas_mlp"
+  ],
+  "scenarios": [
+    "independent",
+    "slow4",
+    "slow8",
+    "fast",
+    "class",
+    "confidence",
+    "natural_missing",
+    "audit_missing"
+  ],
+  "budgets": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "output": "main",
+  "alpha": 0.05,
+  "threshold": 0.15,
+  "seconds": 129.64369416603586,
+  "cohorts": {
+    "gas_lr": 48,
+    "gas_rf": 48,
+    "hydraulic_lr": 12,
+    "hydraulic_rf": 12,
+    "gas_mlp": 48
+  },
+  "times": [
+    0.0,
+    1.0,
+    2.0,
+    4.0,
+    8.0,
+    16.0,
+    32.0
+  ],
+  "platform": "macOS-14.8.1-arm64-arm-64bit",
+  "prediction_sha256": {
+    "gas_lr": "b1db2e58370edaa63d48d0ba923fe0c3c5eee8f1ac1036f43ca80ce5bcc859d3",
+    "gas_rf": "96a57dadf024f2d9b7ccb2726506a5a5318ea60c19ab60b80bd1955be62d1bd9",
+    "hydraulic_lr": "6b7094420966bd7e219f0abab34aea4359e9397fe4d6df54294aaeec42cfa8f7",
+    "hydraulic_rf": "5338297bf8484b6af85b5cc49eed049c298b746e8602ed2c8ba949b1dc627092",
+    "gas_mlp": "1727c26783d91b0cd076731d3a7ccb011990f4df34adf04abbd3bd5845f31aaf"
+  }
+}

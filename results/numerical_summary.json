@@ -1,0 +1,46 @@
+{
+  "primary": {
+    "Arrival plug-in": {
+      "correct": 0.7888541666665287,
+      "width": 0.24024399556452,
+      "wrong": 0.009557291666662374
+    },
+    "Complete prefix": {
+      "correct": 0.5959895833332275,
+      "width": 0.37414182155053377,
+      "wrong": 0.0
+    },
+    "Known outcomes": {
+      "correct": 0.5804427083332413,
+      "width": 0.3765933847682475,
+      "wrong": 0.0
+    },
+    "No audit": {
+      "correct": 0.0,
+      "width": 0.57386778567081,
+      "wrong": 0.0
+    },
+    "Panel envelope": {
+      "correct": 0.748828124999885,
+      "width": 0.328897433663195,
+      "wrong": 0.0
+    },
+    "Routine-only": {
+      "correct": 0.24901041666681872,
+      "width": 0.2889528666232125,
+      "wrong": 0.10419270833335575
+    },
+    "Wait panel": {
+      "correct": 0.5870312499999113,
+      "width": 0.3748759550096425,
+      "wrong": 0.0
+    }
+  },
+  "correct_decision_gain": 0.16179687499997378,
+  "gain_mc95": [
+    0.15885732754511483,
+    0.16473642245483272
+  ],
+  "maximum_envelope_run_failure": 0.035,
+  "maximum_synthetic_envelope_failure": 0.035
+}
